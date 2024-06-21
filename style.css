@@ -13,9 +13,13 @@
         margin: 0px;
     }
 
+    .top_view_container{
+        background-image: url(../img/IMG_1505.JPG);
+        background-size: cover;
+    }
     /*ヘッダーに関する情報*/
     .header_fixed{
-        color: black;
+        color: white;
 
         margin: 0px;
         height: 50px;
@@ -33,7 +37,7 @@
     .header{
         height: 50px;
         padding: 10px;
-        background-color: white;
+        
         color: black;
     }
     .header_menu_container{
@@ -51,6 +55,7 @@
         font-style: normal;
     }
     .header-fixed {
+        background-color: white;
         position: fixed;
         top: 0;
         left: 0;
@@ -71,6 +76,7 @@
 
     /*タイトルに関する情報*/
     h1{
+        color: white;
         text-align: left;
         font-size: 48px;
         font-family: "Mukta", sans-serif;
@@ -84,6 +90,19 @@
     .h1_text_container{
         margin-top: -60px;
         margin-bottom: 90px;
+    }
+    .time_schedule_container_h1{
+        color: white;
+        margin-top: -40px;
+        margin-bottom: 16px;
+    }
+    .geisai_about_price_h1{
+        color: white;
+        padding: 10px;
+        font-family: "Noto Sans JP", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
     }
 
     /*芸祭の概要に関する情報*/
@@ -119,7 +138,7 @@
     .time_title{
         border-bottom: 1px solid #000;
         display: inline-block;
-        
+
         font-family: "Noto Sans JP", sans-serif;
         font-optical-sizing: auto;
         font-weight: weight;
@@ -167,7 +186,7 @@
     .place_title{
         border-bottom: 1px solid #000;
         display: inline-block;
-        
+
         font-family: "Noto Sans JP", sans-serif;
         font-optical-sizing: auto;
         font-weight: weight;
